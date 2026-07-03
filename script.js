@@ -98,3 +98,11 @@ if (introVideo && videoPlaceholder) {
     introVideo.addEventListener("error", showVideoPlaceholder);
     introSource?.addEventListener("error", showVideoPlaceholder);
 }
+
+const bannerDismiss = document.querySelector(".site-banner-dismiss");
+
+if (bannerDismiss) {
+    bannerDismiss.addEventListener("click", () => {
+        bannerDismiss.closest(".site-banner")?.remove();
+    });
+}
