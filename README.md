@@ -1,4 +1,4 @@
-# Aditya Valluri — Portfolio
+# Aditya Valluri - Portfolio
 
 Static portfolio site showcasing cybersecurity, AI infrastructure, and product-focused projects.
 
@@ -11,3 +11,4 @@ py -3 -m http.server 8000 --bind 127.0.0.1
 ```
 
 To publish on GitHub Pages, push this repository to GitHub (see instructions in CONTRIBUTING.md).
+

@@ -802,7 +802,7 @@ p {
     .identity-grid {
         grid-template-columns: minmax(0, 0.9fr) minmax(360px, 1.1fr);
     }
-}
+
     .project-grid {
         grid-template-columns: repeat(3, minmax(0, 1fr));
     }
@@ -864,3 +864,4 @@ p {
         transform: none;
     }
 }
+
