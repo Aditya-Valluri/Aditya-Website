@@ -1,3 +1,8 @@
+/*
+Original style.css
+Theme: dark, with accent colors and layout styles for the portfolio
+*/
+
 :root {
     --bg: #020713;
     --bg-soft: #071426;
@@ -578,7 +583,7 @@ p {
 .project-actions a:hover,
 .project-actions a:focus-visible {
     border-color: var(--green);
-    color: var(--green);
+    color: var(--cyan);
 }
 
 .secure-design {
@@ -797,7 +802,7 @@ p {
     .identity-grid {
         grid-template-columns: minmax(0, 0.9fr) minmax(360px, 1.1fr);
     }
-
+}
     .project-grid {
         grid-template-columns: repeat(3, minmax(0, 1fr));
     }
