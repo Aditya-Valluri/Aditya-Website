@@ -98,12 +98,3 @@ if (introVideo && videoPlaceholder) {
     introVideo.addEventListener("error", showVideoPlaceholder);
     introSource?.addEventListener("error", showVideoPlaceholder);
 }
-
-// Dismissible site banner for playful renovation notice
-const bannerDismiss = document.querySelector('.site-banner-dismiss');
-if (bannerDismiss) {
-    bannerDismiss.addEventListener('click', () => {
-        const banner = bannerDismiss.closest('.site-banner');
-        if (banner) banner.style.display = 'none';
-    });
-}

@@ -10,5 +10,5 @@ py -3 -m http.server 8000 --bind 127.0.0.1
 # then open http://127.0.0.1:8000
 ```
 
-To publish on GitHub Pages, push this repository to GitHub (see instructions in CONTRIBUTING.md).
+This site is intended to be published with GitHub Pages from the `main` branch.
 
