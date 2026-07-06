@@ -1043,6 +1043,12 @@ p {
     margin-bottom: 0;
 }
 
+.resume-focus-title {
+    color: var(--text);
+    font-size: 0.82rem;
+    font-weight: 850;
+}
+
 .resume-label {
     width: fit-content;
     border: 1px solid rgba(98, 210, 162, 0.24);
@@ -1052,6 +1058,17 @@ p {
     font-size: 0.78rem;
     font-weight: 850;
     padding: 6px 9px;
+}
+
+.resume-request-status {
+    width: fit-content;
+    border: 1px solid rgba(98, 210, 162, 0.28);
+    border-radius: var(--radius);
+    background: rgba(98, 210, 162, 0.08);
+    color: #d9f6ea;
+    font-size: 0.9rem;
+    font-weight: 850;
+    padding: 9px 11px;
 }
 
 .contact-card {
