@@ -3,11 +3,6 @@ const navMenu = document.querySelector("#nav-menu");
 const navLinks = Array.from(document.querySelectorAll(".nav-menu a"));
 const revealItems = document.querySelectorAll(".reveal");
 const backToTop = document.querySelector("#back-to-top");
-const playIntro = document.querySelector("#play-intro");
-const introCard = document.querySelector("#intro-video-card");
-const introVideo = document.querySelector(".intro-video");
-const introSource = introVideo?.querySelector("source");
-const videoPlaceholder = document.querySelector(".video-placeholder");
 const sections = navLinks
     .map((link) => document.querySelector(link.getAttribute("href")))
     .filter(Boolean);
@@ -71,33 +66,6 @@ window.addEventListener("scroll", () => {
 backToTop.addEventListener("click", () => {
     window.scrollTo({ top: 0, behavior: prefersReducedMotion ? "auto" : "smooth" });
 });
-
-if (playIntro) {
-    playIntro.addEventListener("click", () => {
-        introCard?.scrollIntoView({ behavior: prefersReducedMotion ? "auto" : "smooth", block: "center" });
-
-        if (introCard && "animate" in introCard) {
-            introCard.animate(
-                [
-                    { boxShadow: "0 0 0 rgba(47, 229, 166, 0)" },
-                    { boxShadow: "0 0 48px rgba(47, 229, 166, 0.34)" },
-                    { boxShadow: "0 0 0 rgba(47, 229, 166, 0)" }
-                ],
-                { duration: prefersReducedMotion ? 1 : 1200, iterations: 1 }
-            );
-        }
-    });
-}
-
-if (introVideo && videoPlaceholder) {
-    const showVideoPlaceholder = () => {
-        introVideo.hidden = true;
-        videoPlaceholder.hidden = false;
-    };
-
-    introVideo.addEventListener("error", showVideoPlaceholder);
-    introSource?.addEventListener("error", showVideoPlaceholder);
-}
 
 const bannerDismiss = document.querySelector(".site-banner-dismiss");
 
