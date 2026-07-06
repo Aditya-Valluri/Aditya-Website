@@ -204,59 +204,84 @@
         <section class="section thinking-section" id="thinking">
             <div class="section-heading reveal">
                 <p class="eyebrow">How I Think</p>
-                <h2>Creative strategy grounded in technical execution.</h2>
+                <h2>I map the problem before I name the solution.</h2>
                 <p>
-                    I combine technical curiosity, creative problem-solving, and product strategy to approach
-                    AI and cybersecurity challenges from multiple angles.
+                    My best work usually starts messy: a whiteboard, a threat model, a product question,
+                    and a few assumptions that need to be tested.
                 </p>
             </div>
 
-            <div class="thinking-grid" aria-label="How Aditya thinks">
-                <article class="thinking-card reveal">
-                    <div class="thinking-icon" aria-hidden="true">
-                        <svg viewBox="0 0 24 24" focusable="false">
-                            <path d="M8 4h5a3 3 0 0 1 3 3v1h1a3 3 0 0 1 3 3v5a4 4 0 0 1-4 4h-4v-3a2 2 0 1 0-4 0v3H4v-4a2 2 0 1 0 0-4V8h4V4Z"></path>
-                        </svg>
+            <div class="thinking-map reveal" aria-label="How Aditya thinks">
+                <div class="mind-constellation" aria-hidden="true">
+                    <svg class="brain-map" viewBox="0 0 520 420" focusable="false">
+                        <defs>
+                            <radialGradient id="mindGlow" cx="50%" cy="45%" r="65%">
+                                <stop offset="0%" stop-color="#62d2a2" stop-opacity="0.34"></stop>
+                                <stop offset="58%" stop-color="#38bdf8" stop-opacity="0.12"></stop>
+                                <stop offset="100%" stop-color="#020713" stop-opacity="0"></stop>
+                            </radialGradient>
+                        </defs>
+                        <circle cx="260" cy="210" r="168" fill="url(#mindGlow)"></circle>
+                        <path class="constellation-line" d="M259 210 126 96"></path>
+                        <path class="constellation-line" d="M259 210 402 100"></path>
+                        <path class="constellation-line" d="M259 210 116 326"></path>
+                        <path class="constellation-line" d="M259 210 410 318"></path>
+                        <path class="brain-outline" d="M218 124c-35 0-60 25-60 58 0 8 2 16 5 23-17 8-28 24-28 43 0 27 22 48 49 48h28c10 23 31 36 58 36 48 0 86-39 86-86v-9c20-7 34-26 34-49 0-29-23-52-52-52-9-27-34-46-64-46-22 0-42 11-56 34Z"></path>
+                        <path class="brain-fold" d="M220 124c18 13 25 28 21 47"></path>
+                        <path class="brain-fold" d="M158 204c18-9 38-8 56 4"></path>
+                        <path class="brain-fold" d="M212 296c-7-24 1-44 24-59"></path>
+                        <path class="brain-fold" d="M277 91c-9 22-3 42 18 58"></path>
+                        <path class="brain-fold" d="M336 137c-20 10-31 27-31 50"></path>
+                        <path class="brain-fold" d="M356 236c-24 3-41 16-51 39"></path>
+                        <circle class="star star-large" cx="260" cy="210" r="6"></circle>
+                        <circle class="star" cx="126" cy="96" r="5"></circle>
+                        <circle class="star" cx="402" cy="100" r="5"></circle>
+                        <circle class="star" cx="116" cy="326" r="5"></circle>
+                        <circle class="star" cx="410" cy="318" r="5"></circle>
+                        <circle class="star faint" cx="196" cy="74" r="3"></circle>
+                        <circle class="star faint" cx="338" cy="360" r="3"></circle>
+                        <circle class="star faint" cx="452" cy="206" r="3"></circle>
+                    </svg>
+                    <div class="mind-label mind-label-top-left">
+                        <span>01</span>
+                        <strong>Untangle</strong>
                     </div>
-                    <h3>Creative Problem Solver</h3>
-                    <p>I break down messy technical problems and turn them into clear, practical solutions.</p>
-                </article>
+                    <div class="mind-label mind-label-top-right">
+                        <span>02</span>
+                        <strong>Imagine</strong>
+                    </div>
+                    <div class="mind-label mind-label-bottom-left">
+                        <span>03</span>
+                        <strong>Pressure-test</strong>
+                    </div>
+                    <div class="mind-label mind-label-bottom-right">
+                        <span>04</span>
+                        <strong>Ship</strong>
+                    </div>
+                </div>
 
-                <article class="thinking-card reveal">
-                    <div class="thinking-icon" aria-hidden="true">
-                        <svg viewBox="0 0 24 24" focusable="false">
-                            <path d="M12 3a6 6 0 0 0-3 11.2V17h6v-2.8A6 6 0 0 0 12 3Z"></path>
-                            <path d="M9 21h6"></path>
-                            <path d="M8 18h8"></path>
-                        </svg>
-                    </div>
-                    <h3>Imaginative Builder</h3>
-                    <p>I think beyond the obvious and explore how AI, security, and user experience can come together.</p>
-                </article>
-
-                <article class="thinking-card reveal">
-                    <div class="thinking-icon" aria-hidden="true">
-                        <svg viewBox="0 0 24 24" focusable="false">
-                            <circle cx="12" cy="12" r="8"></circle>
-                            <path d="m14.5 9.5-1.6 4.8-4.8 1.6 1.6-4.8 4.8-1.6Z"></path>
-                        </svg>
-                    </div>
-                    <h3>Product Visionary Mindset</h3>
-                    <p>I care about user needs, trust, adoption, and the long-term direction of a product.</p>
-                </article>
-
-                <article class="thinking-card reveal">
-                    <div class="thinking-icon" aria-hidden="true">
-                        <svg viewBox="0 0 24 24" focusable="false">
-                            <path d="M5 19V5"></path>
-                            <path d="M5 7h8l-2 3 2 3H5"></path>
-                            <path d="M17 19v-6"></path>
-                            <path d="M14 19h6"></path>
-                        </svg>
-                    </div>
-                    <h3>Innovation Strategist</h3>
-                    <p>I connect technical ideas with real-world use cases, business value, and meaningful impact.</p>
-                </article>
+                <div class="thinking-notes">
+                    <article class="thinking-note">
+                        <span>Messy problem</span>
+                        <h3>Untangle the system</h3>
+                        <p>I look for the hidden dependency, the risky assumption, and the part everyone keeps explaining twice.</p>
+                    </article>
+                    <article class="thinking-note">
+                        <span>New angle</span>
+                        <h3>Imagine a better path</h3>
+                        <p>I like combining security, AI, and user experience when the obvious answer feels too narrow.</p>
+                    </article>
+                    <article class="thinking-note">
+                        <span>Trust check</span>
+                        <h3>Pressure-test the idea</h3>
+                        <p>Before calling something useful, I ask how it fails, who relies on it, and what could be abused.</p>
+                    </article>
+                    <article class="thinking-note">
+                        <span>Product move</span>
+                        <h3>Ship the next clear step</h3>
+                        <p>I care about momentum: a prototype, a workflow, a cleaner decision, or a system people can actually use.</p>
+                    </article>
+                </div>
             </div>
         </section>
 
