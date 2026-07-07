@@ -338,7 +338,6 @@ p {
     line-height: 1.45;
 }
 
-.badge-row,
 .stack-list,
 .hero-actions,
 .project-actions {
@@ -347,11 +346,10 @@ p {
     gap: 10px;
 }
 
-.badge-row {
-    margin: 24px 0 28px;
+.hero-actions {
+    margin-top: 24px;
 }
 
-.badge-row span,
 .stack-list span {
     border: 1px solid rgba(125, 211, 252, 0.18);
     border-radius: 999px;
@@ -360,11 +358,6 @@ p {
     font-size: 0.83rem;
     font-weight: 750;
     padding: 8px 10px;
-}
-
-.badge-row span {
-    border-color: rgba(148, 163, 184, 0.24);
-    background: rgba(148, 163, 184, 0.08);
 }
 
 .button {
