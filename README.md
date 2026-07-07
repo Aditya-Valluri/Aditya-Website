@@ -1,4 +1,4 @@
-# Aditya Valluri - Portfolio
+# Aditya Sree Krishna Valluri - Portfolio
 
 Static portfolio site showcasing cybersecurity, AI infrastructure, and product-focused projects.
 
