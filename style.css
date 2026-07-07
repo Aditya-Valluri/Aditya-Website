@@ -139,38 +139,9 @@ textarea {
     min-height: 74px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     gap: 16px;
     margin: 0 auto;
-}
-
-.brand {
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    color: var(--text);
-    font-weight: 800;
-    min-width: 0;
-    text-decoration: none;
-}
-
-.brand-name {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
-
-.brand-mark {
-    width: 42px;
-    height: 38px;
-    display: inline-grid;
-    place-items: center;
-    border: 1px solid var(--line-bright);
-    border-radius: var(--radius);
-    background: rgba(47, 229, 166, 0.08);
-    color: var(--green);
-    font-size: 0.8rem;
-    box-shadow: none;
 }
 
 .menu-toggle {
@@ -1258,10 +1229,6 @@ p {
 
     .hero {
         padding-top: 30px;
-    }
-
-    .brand-name {
-        max-width: 58vw;
     }
 
     .mind-constellation {
